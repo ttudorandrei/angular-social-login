@@ -31,7 +31,8 @@ import { AppDemoComponent } from './app-demo/app-demo.component';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              environment.clientId
+              environment.clientId,
+              { plugin_name: 'muda-rl' }
             )
           },
         ],
