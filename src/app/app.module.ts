@@ -9,10 +9,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppDemoComponent } from './app-demo/app-demo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppDemoComponent
   ],
   imports: [
     BrowserModule,
